@@ -1,0 +1,80 @@
+body {
+    background-color:#F0F0F0;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+.container {
+    width: 80%;
+    margin: 0% 0% 0% 10%;
+}
+label {
+    display:block;
+    margin-bottom:10px;
+}
+.button {
+    width: 500px;
+    margin: 2em 0;
+    padding: 1em 4em;
+    display:block;
+}
+
+.animal{
+    width: 750px;
+    height: 200px;
+    margin: 3px 3px 40px 3px; 
+    position: relative;
+}
+.animal-name{
+    font-size: 20px;
+    padding: 10px 10px 10px 0px;
+}
+
+.desc{
+    width: 67%;
+    height: 150px;
+    background-color: #fff;
+    float:left;
+    display:block;
+    margin: 0 20px 15px 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgray;
+    overflow: scroll;
+}
+
+input{
+    width: 100px;
+    height: 27px;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: rgb(30, 160, 204); /* Green */
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: rgb(27, 187, 240); /* Green */
+}
+
+.btn:active{
+    background-color: rgb(30, 160, 204); /* Green */
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px 10px #888888;
+    margin: 0 20px 0 0;
+    float:left;
+}
+
+#visual1, #visual2{
+    visibility: hidden;
+}
+
